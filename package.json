@@ -1,0 +1,24 @@
+{
+  "name": "simple-gulp-workflow",
+  "version": "0.1.0",
+  "description": "A simple Gulp workflow that compiles assets",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanleonino/simple-gulp-workflow.git"
+  },
+  "keywords": [
+    "gulp",
+    "automation"
+  ],
+  "author": "Jean Lucas Lima <jeanleonino@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeanleonino/simple-gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/jeanleonino/simple-gulp-workflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1"
+  }
+}

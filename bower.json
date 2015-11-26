@@ -1,0 +1,25 @@
+{
+  "name": "simple-gulp-workflow",
+  "homepage": "https://github.com/jeanleonino/simple-gulp-workflow",
+  "authors": [
+    "Jean Lucas <jeanleonino@gmail.com>"
+  ],
+  "description": "A simple Gulp workflow that compiles assets.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "gulp",
+    "automation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "~2.24.0"
+  }
+}
