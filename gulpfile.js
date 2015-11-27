@@ -13,8 +13,8 @@ var paths = {
 // This task processes all sass files inside source/scss/ and compile to source/css/
 gulp.task('styles', function(){
   gulp.src(sass_folder) // add pumbler
-  .pipe(sass().on('error', sass.logError))
-  .pipe(gulp.dest(dist))
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest(dist))
 });
 
 gulp.task('default', ['dist']);
